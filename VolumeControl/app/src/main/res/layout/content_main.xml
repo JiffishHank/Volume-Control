@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="55dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:context=".MainActivity"
+        tools:showIn="@layout/activity_main">
+
+        <Button
+            android:id="@+id/muteButton"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="@string/mute" />
+
+        <Button
+            android:id="@+id/unmuteButton"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="@string/unmute" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:context=".MainActivity"
+        tools:showIn="@layout/activity_main">
+
+        <Button
+            android:id="@+id/lowerButton"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="@string/lower" />
+
+        <Button
+            android:id="@+id/raiseButton"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="@string/raise" />
+    </LinearLayout>
+
+
+</LinearLayout>
